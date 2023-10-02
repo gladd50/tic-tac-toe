@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, 100px); 
+    gap: 10px; 
+}
+
+.square {
+    width: 100px; 
+    height: 100px;
+    background-color: #dbdada; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.O {
+    font-size: 70px;
+}
+
+.X {
+    font-size: 70px;
+}
+
+/* Reset Button Styles */
+.reset-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f00; /* Change the background color to your desired color */
+    color: #fff; /* Change the text color to your desired color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 2rem;
+  }
+  
+  .reset-button:hover {
+    background-color: #ff5555; /* Change the background color on hover */
+  }
+
+  #player{
+    font-size: 3rem;
+  }
+
+  
